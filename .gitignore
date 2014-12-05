@@ -29,3 +29,7 @@
 
 # OS X Files
 .DS_Store
+
+# Compiled code
+/Debug/
+/Release/
