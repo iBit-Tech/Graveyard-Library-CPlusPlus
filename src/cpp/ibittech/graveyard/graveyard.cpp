@@ -7,12 +7,8 @@
 
 #include "graveyard.h"
 
-graveyard::graveyard() {
-	// TODO Auto-generated constructor stub
+#define NAME "Graveyard"
 
-}
+#define FANCY_NAME "Graveyard, the multipurpose C++ library"
 
-graveyard::~graveyard() {
-	// TODO Auto-generated destructor stub
-}
-
+#define VERSION "v1.0.0a"
