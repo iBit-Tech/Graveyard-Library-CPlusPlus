@@ -10,5 +10,7 @@
 using namespace std;
 
 int main(){
-	cout >> "xbonys iz awesome" << endl;
+	cout << "xbonys iz awesome" << endl;
+
+	return 0;
 }
