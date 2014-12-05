@@ -9,9 +9,6 @@
 #define GRAVEYARD_H_
 
 class graveyard {
-public:
-	graveyard();
-	virtual ~graveyard();
 };
 
 #endif /* GRAVEYARD_H_ */
