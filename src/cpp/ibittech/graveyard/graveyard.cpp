@@ -7,8 +7,10 @@
 
 #include "graveyard.h"
 
-#define NAME "Graveyard"
+using namespace std;
 
-#define FANCY_NAME "Graveyard, the multipurpose C++ library"
+const string NAME = "Graveyard";
 
-#define VERSION "v1.0.0a"
+const string FANCY_NAME = "Graveyard, the multipurpose C++ library";
+
+const string VERSION = "v1.0.0a";
