@@ -5,16 +5,19 @@
  *      Author: xbony2
  */
 
-#ifndef GRAVEYARD_H_
-#define GRAVEYARD_H_
+#ifndef _GRAVE_H_
+#define _GRAVE_H_
 
-using namespace std;
+#include <string>
+#include <string.h>
 
-class graveyard {
-public:
-	const string NAME;
-	const string FANCY_NAME;
-	const string VERSION;
-};
+namespace grv {
+	class Graveyard {
+		public:
+			const std::string NAME = "Graveyard";
+			const std::string FANCY_NAME = "Graveyard, the multipurpose C++ library";
+			const std::string VERSION = "v1.0.0a";
+	};
+}
 
-#endif /* GRAVEYARD_H_ */
+#endif
